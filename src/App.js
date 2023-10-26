@@ -1,7 +1,6 @@
 import { createGlobalStyle } from "styled-components";
 
 const GlobalStyle = createGlobalStyle`
-
     *,
     *::before,
     *::after {
@@ -12,21 +11,17 @@ const GlobalStyle = createGlobalStyle`
 
     body {
         font-family: 'Roboto', sans-serif;
-        background-color: #F3F8FF;
+        /* background-color: #F3F8FF; */
     }
 
     ul {
         list-style: none;
     }
 
-    @media only screen and (max-width: 1200px) {
+    @media only screen and (max-width: 800px) {
         body::before {
             content: 'Ҳозирча бизда мабил варсия мавжуд эмас 😊';
             position: fixed;
-            /* top: 0;
-            left: 0;
-            right: 0;
-            bottom: 0; */
             display: flex;
             align-items: center;
             justify-content: center;

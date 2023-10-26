@@ -6,6 +6,7 @@ import {
   RouterProvider,
 } from "react-router-dom";
 import Table from './components/table/table.jsx';
+import Dashboard from './pages/dashboard/dashboard.jsx';
 
 const router = createBrowserRouter([
   {
@@ -13,8 +14,12 @@ const router = createBrowserRouter([
     element: <App/>,
   },
   {
-    path: "/girls",
+    path: "/leader_board",
     element: <Table/>,
+  },
+  {
+    path: "/dashboard",
+    element: <Dashboard />,
   },
 ]);
 

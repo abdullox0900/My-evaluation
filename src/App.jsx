@@ -5,6 +5,8 @@ import Loading from './components/loading/loading.jsx'
 import styled from 'styled-components'
 import { Link } from 'react-router-dom'
 
+import "./App.css";
+
 const MenuWrap = styled.div`
     display: flex;
     align-items: center;
@@ -16,9 +18,8 @@ const MenuItem = styled.div`
     display: flex;
     align-items: center;
     justify-content: center;
-    width: 150px;
-    height: 150px;
-    font-size: 18px;
+    padding: 20px 50px;
+    font-size: 24px;
     font-weight: 600;
     border-radius: 10px;
     background-color: #fff;
@@ -43,9 +44,9 @@ function App() {
         )
       }
       <MenuWrap>
-        <Link to={'/girls'} style={{ textDecoration: 'none', color: '#6A6C72' }}>
+        <Link to={'/leader_board'} style={{ textDecoration: 'none', color: '#6A6C72' }}>
           <MenuItem>
-            Girls Evaluation
+            Front-End
           </MenuItem>
         </Link>
       </MenuWrap>

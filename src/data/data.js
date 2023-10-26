@@ -1,51 +1,80 @@
 export const userData = [
     {
         id: 1,
-        name: 'Maxamadjonova Mavludaxon',
-        evaluation: 55,
-        active: false
+        name: 'Qosimov Jasur',
+        evaluation: 7,
+        active: false,
+        course: 'F4'
     },
     {
         id: 2,
-        name: 'Azimova Kamola',
-        evaluation: 50,
-        active: false
+        name: 'Azimjonov MuhammadAmin',
+        evaluation: 5,
+        active: false,
+        course: 'F4'
+    },
+    {
+        id: 3,
+        name: 'Yigitaliyev MuhammadYusuf',
+        evaluation: 0,
+        active: false,
+        course: 'F4'
     },
 
     {
-        id: 3,
-        name: 'Imamova Zaynabxon',
-        evaluation: 48,
-        active: false
-    },
-    {
         id: 4,
-        name: 'Mamirjonova Sarvinoz',
-        evaluation: 42,
-        active: false
+        name: 'Abdurahmonov Firdavs',
+        evaluation: 0,
+        active: false,
+        course: 'F4'
     },
     {
         id: 5,
-        name: 'Maxsudova Moxlaroy',
-        evaluation: 39,
-        active: false
+        name: 'Abdurahimov Azizbek',
+        evaluation: 0,
+        active: false,
+        course: ''
     },
     {
         id: 6,
-        name: 'Jalilova Mohira',
-        evaluation: 33,
-        active: false
+        name: 'Murodov Maxmudjion',
+        evaluation: 0,
+        active: false,
+        course: ''
     },
     {
         id: 7,
-        name: 'Sultonbekova Gulzodaxon',
-        evaluation: 23,
-        active: false
+        name: 'Otabekov Abdulbori',
+        evaluation: 0,
+        active: false,
+        course: ''
     },
     {
         id: 8,
-        name: `Muslima`,
-        evaluation: 10,
-        active: false
+        name: `Ibadullayev Saidikrom`,
+        evaluation: 0,
+        active: false,
+        course: ''
+    },
+    {
+        id: 8,
+        name: `Bozorboyev Muhammadjon`,
+        evaluation: 0,
+        active: false,
+        course: ''
+    },
+    {
+        id: 8,
+        name: `Bozorboyev Muhammadjon`,
+        evaluation: 0,
+        active: false,
+        course: ''
+    },
+    {
+        id: 8,
+        name: `Muhammadsoliyev Baxtiyorjon`,
+        evaluation: 0,
+        active: false,
+        course: ''
     },
 ]
