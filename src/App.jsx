@@ -6,18 +6,21 @@ import styled from 'styled-components'
 import { Link } from 'react-router-dom'
 
 import "./App.css";
+import Footer from './components/footer/footer.jsx'
+import Header from './components/header/header.jsx'
 
 const MenuWrap = styled.div`
     display: flex;
     align-items: center;
     justify-content: center;
-    height: 100vh;
+    height: 85vh;
 `
 
 const MenuItem = styled.div`
     display: flex;
     align-items: center;
     justify-content: center;
+    width: 300px;
     padding: 20px 50px;
     font-size: 24px;
     font-weight: 600;
@@ -43,6 +46,7 @@ function App() {
           <Loading opacity={'none'} />
         )
       }
+      <Header />
       <MenuWrap>
         <Link to={'/leader_board'} style={{ textDecoration: 'none', color: '#6A6C72' }}>
           <MenuItem>
@@ -50,6 +54,7 @@ function App() {
           </MenuItem>
         </Link>
       </MenuWrap>
+        <Footer />
       <GlobalStyle />
     </div>
   )
